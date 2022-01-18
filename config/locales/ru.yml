@@ -1,0 +1,78 @@
+ru:
+
+  layouts:
+    application:
+      title: "Практичная книжная полка"
+      home: "Домашняя"
+      questions: "Вопросы"
+      news: "Новости"
+      contact: "Контакты"
+
+  store:
+    index:
+      title_html: "Ваш практичный каталог"
+      add_html: "Добавить в корзину"
+
+  carts:
+    cart:
+      title: "Ваша корзина"
+      empty: "Опустошить корзину"
+      checkout: "Расплатиться"
+
+  number:
+    currency:
+      format:
+        unit: "US$"
+        precision: 2
+        separator: "."
+        delimiter: ","
+        format: "%n&nbsp;%u"
+
+  orders:
+    new:
+      legend: "Пожалуйста заполните ваши данные"
+    form:
+      name: "Полное имя"
+      address_html: "Адрес"
+      email: "E-mail"
+      pay_type: "Способ оплаты"
+      pay_prompt_html: "Выберите способ оплаты"
+      submit: "Подтвердить заказ"
+      pay_types:
+        check: "Чек"
+        credit_card: "Кредитная карта"
+        purchase_order: "Заказ на покупку"
+      check_pay_type:
+        routing_number: "Routing #"
+        account_number: "Account #"
+      credit_card_pay_type:
+        cc_number: "CC #"
+        expiration_date: "Expiry"
+      purchase_order_pay_type:
+        po_number: "PO #"
+
+  activerecord:
+    errors:
+      messages:
+        inclusion: "не является перечислены"
+        blank: "нельзя оставлять пустым"
+
+    models:
+      order: "заказ"
+    attributes:
+      order:
+        address: "Адрес"
+        name: "Имя"
+        email: "E-mail"
+        pay_type: "форма оплаты"
+
+
+  errors:
+    template:
+      body: "Есть проблемы со следующими полями:"
+      header:
+        one: "1 ошибка помешала сохранить эту %{model}"
+        other: "Ошибки %{count} не позволили сохранить эту %{model}"
+
+
+  thanks: "Спасибо за ваш заказ"
